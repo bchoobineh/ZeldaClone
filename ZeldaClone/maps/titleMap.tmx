@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.5" tiledversion="1.7.2" orientation="orthogonal" renderorder="right-down" width="1" height="9" tilewidth="256" tileheight="224" infinite="0" nextlayerid="2" nextobjectid="1">
+ <tileset firstgid="1" name="titleCard" tilewidth="256" tileheight="224" tilecount="12" columns="4">
+  <image source="../tilesets/titleCard.png" width="1024" height="721"/>
+  <tile id="0">
+   <animation>
+    <frame tileid="0" duration="150"/>
+    <frame tileid="1" duration="150"/>
+    <frame tileid="0" duration="150"/>
+    <frame tileid="2" duration="150"/>
+    <frame tileid="3" duration="150"/>
+    <frame tileid="2" duration="150"/>
+   </animation>
+  </tile>
+ </tileset>
+ <layer id="1" name="Tile Layer 1" width="1" height="9">
+  <data>
+   <tile gid="2"/>
+   <tile gid="5"/>
+   <tile gid="6"/>
+   <tile gid="7"/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+   <tile/>
+  </data>
+ </layer>
+</map>
